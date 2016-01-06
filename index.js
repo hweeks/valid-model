@@ -1,5 +1,6 @@
 "use strict";
 var Model = require('backbone-model').Model;
+var assign = require('lodash.assign');
 var ValidModel = module.exports = Model.extend({
     set : function (attributes, options) {
         var name;
