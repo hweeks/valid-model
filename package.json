@@ -1,6 +1,6 @@
 {
   "name": "valid-model",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "defaults to validate:true for the options passed to Model.prototype.set",
   "author": "1stdibs.com, Inc.",
   "scripts": {
