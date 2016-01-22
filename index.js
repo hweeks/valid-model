@@ -5,7 +5,7 @@ var ValidModel = module.exports = Model.extend({
     set : function (attributes, options) {
         var name;
         var val;
-        if ("string" === typeof attributes) {
+        if (attributes.constructor === String) {
             name = attributes;
             val = options;
             attributes = {};
